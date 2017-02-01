@@ -17,6 +17,11 @@ class InterfaceController: WKInterfaceController {
 
     @IBAction func flipButton() {
         
+        var randomNumber = arc4random_uniform(2)
+        
+        print(randomNumber)
+        
+        //answerLabel.setText("My App Is Working!")
     }
     
     override func awake(withContext context: Any?) {
