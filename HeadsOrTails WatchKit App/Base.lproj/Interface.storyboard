@@ -21,7 +21,9 @@
                                 <action selector="flipButton" destination="AgC-eL-Hgc" id="rAy-Dv-uGX"/>
                             </connections>
                         </button>
-                        <label width="133" alignment="center" verticalAlignment="center" textAlignment="center" id="7z6-Yy-45U"/>
+                        <label width="133" alignment="center" verticalAlignment="center" textAlignment="center" id="7z6-Yy-45U">
+                            <fontDescription key="font" type="system" pointSize="25"/>
+                        </label>
                     </items>
                     <connections>
                         <outlet property="answerLabel" destination="7z6-Yy-45U" id="Yew-nG-BT1"/>
