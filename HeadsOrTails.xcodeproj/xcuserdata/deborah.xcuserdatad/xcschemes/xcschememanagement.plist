@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HeadsOrTails WatchKit App (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>HeadsOrTails WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>HeadsOrTails.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>509A33B61E4180AB00B9238D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>509A33CA1E4180AD00B9238D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>509A33D51E4180AD00B9238D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>509A33DE1E4180AE00B9238D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		509A33BB1E4180AC00B9238D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A33BA1E4180AC00B9238D /* AppDelegate.swift */; };
+		509A33BD1E4180AC00B9238D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A33BC1E4180AC00B9238D /* ViewController.swift */; };
+		509A33C01E4180AC00B9238D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509A33BE1E4180AC00B9238D /* Main.storyboard */; };
+		509A33C21E4180AC00B9238D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509A33C11E4180AC00B9238D /* Assets.xcassets */; };
+		509A33C51E4180AC00B9238D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509A33C31E4180AC00B9238D /* LaunchScreen.storyboard */; };
+		509A33D01E4180AD00B9238D /* HeadsOrTailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A33CF1E4180AD00B9238D /* HeadsOrTailsTests.swift */; };
+		509A33DB1E4180AD00B9238D /* HeadsOrTailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A33DA1E4180AD00B9238D /* HeadsOrTailsUITests.swift */; };
+		509A33E01E4180AE00B9238D /* HeadsOrTails WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 509A33DF1E4180AE00B9238D /* HeadsOrTails WatchKit App.app */; };
+		509A33E61E4180AE00B9238D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509A33E41E4180AE00B9238D /* Interface.storyboard */; };
+		509A33E81E4180AE00B9238D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509A33E71E4180AE00B9238D /* Assets.xcassets */; };
+		509A33EF1E4180AE00B9238D /* HeadsOrTails WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 509A33EE1E4180AE00B9238D /* HeadsOrTails WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		509A33F61E4180AE00B9238D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A33F51E4180AE00B9238D /* InterfaceController.swift */; };
+		509A33F81E4180AE00B9238D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A33F71E4180AE00B9238D /* ExtensionDelegate.swift */; };
+		509A33FA1E4180AF00B9238D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A33F91E4180AF00B9238D /* NotificationController.swift */; };
+		509A33FC1E4180AF00B9238D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509A33FB1E4180AF00B9238D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		509A33CC1E4180AD00B9238D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509A33AF1E4180AA00B9238D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509A33B61E4180AB00B9238D;
+			remoteInfo = HeadsOrTails;
+		};
+		509A33D71E4180AD00B9238D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509A33AF1E4180AA00B9238D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509A33B61E4180AB00B9238D;
+			remoteInfo = HeadsOrTails;
+		};
+		509A33E11E4180AE00B9238D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509A33AF1E4180AA00B9238D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509A33DE1E4180AE00B9238D;
+			remoteInfo = "HeadsOrTails WatchKit App";
+		};
+		509A33F01E4180AE00B9238D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509A33AF1E4180AA00B9238D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509A33ED1E4180AE00B9238D;
+			remoteInfo = "HeadsOrTails WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		509A34031E4180AF00B9238D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				509A33EF1E4180AE00B9238D /* HeadsOrTails WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A34071E4180AF00B9238D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				509A33E01E4180AE00B9238D /* HeadsOrTails WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		509A33B71E4180AB00B9238D /* HeadsOrTails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadsOrTails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		509A33BA1E4180AC00B9238D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		509A33BC1E4180AC00B9238D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		509A33BF1E4180AC00B9238D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		509A33C11E4180AC00B9238D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		509A33C41E4180AC00B9238D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		509A33C61E4180AC00B9238D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509A33CB1E4180AD00B9238D /* HeadsOrTailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadsOrTailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		509A33CF1E4180AD00B9238D /* HeadsOrTailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsOrTailsTests.swift; sourceTree = "<group>"; };
+		509A33D11E4180AD00B9238D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509A33D61E4180AD00B9238D /* HeadsOrTailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadsOrTailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		509A33DA1E4180AD00B9238D /* HeadsOrTailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsOrTailsUITests.swift; sourceTree = "<group>"; };
+		509A33DC1E4180AD00B9238D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509A33DF1E4180AE00B9238D /* HeadsOrTails WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeadsOrTails WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509A33E51E4180AE00B9238D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		509A33E71E4180AE00B9238D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		509A33E91E4180AE00B9238D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509A33EE1E4180AE00B9238D /* HeadsOrTails WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeadsOrTails WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509A33F41E4180AE00B9238D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		509A33F51E4180AE00B9238D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		509A33F71E4180AE00B9238D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		509A33F91E4180AF00B9238D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		509A33FB1E4180AF00B9238D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		509A33FD1E4180AF00B9238D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		509A33B41E4180AB00B9238D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A33C81E4180AD00B9238D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A33D31E4180AD00B9238D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A33EB1E4180AE00B9238D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		509A33AE1E4180AA00B9238D = {
+			isa = PBXGroup;
+			children = (
+				509A33B91E4180AB00B9238D /* HeadsOrTails */,
+				509A33CE1E4180AD00B9238D /* HeadsOrTailsTests */,
+				509A33D91E4180AD00B9238D /* HeadsOrTailsUITests */,
+				509A33E31E4180AE00B9238D /* HeadsOrTails WatchKit App */,
+				509A33F21E4180AE00B9238D /* HeadsOrTails WatchKit Extension */,
+				509A33B81E4180AB00B9238D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		509A33B81E4180AB00B9238D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				509A33B71E4180AB00B9238D /* HeadsOrTails.app */,
+				509A33CB1E4180AD00B9238D /* HeadsOrTailsTests.xctest */,
+				509A33D61E4180AD00B9238D /* HeadsOrTailsUITests.xctest */,
+				509A33DF1E4180AE00B9238D /* HeadsOrTails WatchKit App.app */,
+				509A33EE1E4180AE00B9238D /* HeadsOrTails WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		509A33B91E4180AB00B9238D /* HeadsOrTails */ = {
+			isa = PBXGroup;
+			children = (
+				509A33BA1E4180AC00B9238D /* AppDelegate.swift */,
+				509A33BC1E4180AC00B9238D /* ViewController.swift */,
+				509A33BE1E4180AC00B9238D /* Main.storyboard */,
+				509A33C11E4180AC00B9238D /* Assets.xcassets */,
+				509A33C31E4180AC00B9238D /* LaunchScreen.storyboard */,
+				509A33C61E4180AC00B9238D /* Info.plist */,
+			);
+			path = HeadsOrTails;
+			sourceTree = "<group>";
+		};
+		509A33CE1E4180AD00B9238D /* HeadsOrTailsTests */ = {
+			isa = PBXGroup;
+			children = (
+				509A33CF1E4180AD00B9238D /* HeadsOrTailsTests.swift */,
+				509A33D11E4180AD00B9238D /* Info.plist */,
+			);
+			path = HeadsOrTailsTests;
+			sourceTree = "<group>";
+		};
+		509A33D91E4180AD00B9238D /* HeadsOrTailsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				509A33DA1E4180AD00B9238D /* HeadsOrTailsUITests.swift */,
+				509A33DC1E4180AD00B9238D /* Info.plist */,
+			);
+			path = HeadsOrTailsUITests;
+			sourceTree = "<group>";
+		};
+		509A33E31E4180AE00B9238D /* HeadsOrTails WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				509A33E41E4180AE00B9238D /* Interface.storyboard */,
+				509A33E71E4180AE00B9238D /* Assets.xcassets */,
+				509A33E91E4180AE00B9238D /* Info.plist */,
+			);
+			path = "HeadsOrTails WatchKit App";
+			sourceTree = "<group>";
+		};
+		509A33F21E4180AE00B9238D /* HeadsOrTails WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				509A33F51E4180AE00B9238D /* InterfaceController.swift */,
+				509A33F71E4180AE00B9238D /* ExtensionDelegate.swift */,
+				509A33F91E4180AF00B9238D /* NotificationController.swift */,
+				509A33FB1E4180AF00B9238D /* Assets.xcassets */,
+				509A33FD1E4180AF00B9238D /* Info.plist */,
+				509A33F31E4180AE00B9238D /* Supporting Files */,
+			);
+			path = "HeadsOrTails WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		509A33F31E4180AE00B9238D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				509A33F41E4180AE00B9238D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		509A33B61E4180AB00B9238D /* HeadsOrTails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509A34081E4180AF00B9238D /* Build configuration list for PBXNativeTarget "HeadsOrTails" */;
+			buildPhases = (
+				509A33B31E4180AB00B9238D /* Sources */,
+				509A33B41E4180AB00B9238D /* Frameworks */,
+				509A33B51E4180AB00B9238D /* Resources */,
+				509A34071E4180AF00B9238D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509A33E21E4180AE00B9238D /* PBXTargetDependency */,
+			);
+			name = HeadsOrTails;
+			productName = HeadsOrTails;
+			productReference = 509A33B71E4180AB00B9238D /* HeadsOrTails.app */;
+			productType = "com.apple.product-type.application";
+		};
+		509A33CA1E4180AD00B9238D /* HeadsOrTailsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509A340B1E4180AF00B9238D /* Build configuration list for PBXNativeTarget "HeadsOrTailsTests" */;
+			buildPhases = (
+				509A33C71E4180AD00B9238D /* Sources */,
+				509A33C81E4180AD00B9238D /* Frameworks */,
+				509A33C91E4180AD00B9238D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509A33CD1E4180AD00B9238D /* PBXTargetDependency */,
+			);
+			name = HeadsOrTailsTests;
+			productName = HeadsOrTailsTests;
+			productReference = 509A33CB1E4180AD00B9238D /* HeadsOrTailsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		509A33D51E4180AD00B9238D /* HeadsOrTailsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509A340E1E4180AF00B9238D /* Build configuration list for PBXNativeTarget "HeadsOrTailsUITests" */;
+			buildPhases = (
+				509A33D21E4180AD00B9238D /* Sources */,
+				509A33D31E4180AD00B9238D /* Frameworks */,
+				509A33D41E4180AD00B9238D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509A33D81E4180AD00B9238D /* PBXTargetDependency */,
+			);
+			name = HeadsOrTailsUITests;
+			productName = HeadsOrTailsUITests;
+			productReference = 509A33D61E4180AD00B9238D /* HeadsOrTailsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		509A33DE1E4180AE00B9238D /* HeadsOrTails WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509A34041E4180AF00B9238D /* Build configuration list for PBXNativeTarget "HeadsOrTails WatchKit App" */;
+			buildPhases = (
+				509A33DD1E4180AE00B9238D /* Resources */,
+				509A34031E4180AF00B9238D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509A33F11E4180AE00B9238D /* PBXTargetDependency */,
+			);
+			name = "HeadsOrTails WatchKit App";
+			productName = "HeadsOrTails WatchKit App";
+			productReference = 509A33DF1E4180AE00B9238D /* HeadsOrTails WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		509A33ED1E4180AE00B9238D /* HeadsOrTails WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509A34001E4180AF00B9238D /* Build configuration list for PBXNativeTarget "HeadsOrTails WatchKit Extension" */;
+			buildPhases = (
+				509A33EA1E4180AE00B9238D /* Sources */,
+				509A33EB1E4180AE00B9238D /* Frameworks */,
+				509A33EC1E4180AE00B9238D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeadsOrTails WatchKit Extension";
+			productName = "HeadsOrTails WatchKit Extension";
+			productReference = 509A33EE1E4180AE00B9238D /* HeadsOrTails WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		509A33AF1E4180AA00B9238D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Deborah;
+				TargetAttributes = {
+					509A33B61E4180AB00B9238D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4J6N8TR2LN;
+						ProvisioningStyle = Automatic;
+					};
+					509A33CA1E4180AD00B9238D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4J6N8TR2LN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 509A33B61E4180AB00B9238D;
+					};
+					509A33D51E4180AD00B9238D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4J6N8TR2LN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 509A33B61E4180AB00B9238D;
+					};
+					509A33DE1E4180AE00B9238D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4J6N8TR2LN;
+						ProvisioningStyle = Automatic;
+					};
+					509A33ED1E4180AE00B9238D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4J6N8TR2LN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 509A33B21E4180AB00B9238D /* Build configuration list for PBXProject "HeadsOrTails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 509A33AE1E4180AA00B9238D;
+			productRefGroup = 509A33B81E4180AB00B9238D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				509A33B61E4180AB00B9238D /* HeadsOrTails */,
+				509A33CA1E4180AD00B9238D /* HeadsOrTailsTests */,
+				509A33D51E4180AD00B9238D /* HeadsOrTailsUITests */,
+				509A33DE1E4180AE00B9238D /* HeadsOrTails WatchKit App */,
+				509A33ED1E4180AE00B9238D /* HeadsOrTails WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		509A33B51E4180AB00B9238D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A33C51E4180AC00B9238D /* LaunchScreen.storyboard in Resources */,
+				509A33C21E4180AC00B9238D /* Assets.xcassets in Resources */,
+				509A33C01E4180AC00B9238D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A33C91E4180AD00B9238D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A33D41E4180AD00B9238D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A33DD1E4180AE00B9238D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A33E81E4180AE00B9238D /* Assets.xcassets in Resources */,
+				509A33E61E4180AE00B9238D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A33EC1E4180AE00B9238D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A33FC1E4180AF00B9238D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		509A33B31E4180AB00B9238D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A33BD1E4180AC00B9238D /* ViewController.swift in Sources */,
+				509A33BB1E4180AC00B9238D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A33C71E4180AD00B9238D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A33D01E4180AD00B9238D /* HeadsOrTailsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A33D21E4180AD00B9238D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A33DB1E4180AD00B9238D /* HeadsOrTailsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A33EA1E4180AE00B9238D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A33FA1E4180AF00B9238D /* NotificationController.swift in Sources */,
+				509A33F81E4180AE00B9238D /* ExtensionDelegate.swift in Sources */,
+				509A33F61E4180AE00B9238D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		509A33CD1E4180AD00B9238D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509A33B61E4180AB00B9238D /* HeadsOrTails */;
+			targetProxy = 509A33CC1E4180AD00B9238D /* PBXContainerItemProxy */;
+		};
+		509A33D81E4180AD00B9238D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509A33B61E4180AB00B9238D /* HeadsOrTails */;
+			targetProxy = 509A33D71E4180AD00B9238D /* PBXContainerItemProxy */;
+		};
+		509A33E21E4180AE00B9238D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509A33DE1E4180AE00B9238D /* HeadsOrTails WatchKit App */;
+			targetProxy = 509A33E11E4180AE00B9238D /* PBXContainerItemProxy */;
+		};
+		509A33F11E4180AE00B9238D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509A33ED1E4180AE00B9238D /* HeadsOrTails WatchKit Extension */;
+			targetProxy = 509A33F01E4180AE00B9238D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		509A33BE1E4180AC00B9238D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				509A33BF1E4180AC00B9238D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		509A33C31E4180AC00B9238D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				509A33C41E4180AC00B9238D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		509A33E41E4180AE00B9238D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				509A33E51E4180AE00B9238D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		509A33FE1E4180AF00B9238D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		509A33FF1E4180AF00B9238D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		509A34011E4180AF00B9238D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = "HeadsOrTails WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.HeadsOrTails.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		509A34021E4180AF00B9238D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = "HeadsOrTails WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.HeadsOrTails.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		509A34051E4180AF00B9238D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				IBSC_MODULE = HeadsOrTails_WatchKit_Extension;
+				INFOPLIST_FILE = "HeadsOrTails WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.HeadsOrTails.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		509A34061E4180AF00B9238D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				IBSC_MODULE = HeadsOrTails_WatchKit_Extension;
+				INFOPLIST_FILE = "HeadsOrTails WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.HeadsOrTails.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		509A34091E4180AF00B9238D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = HeadsOrTails/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.HeadsOrTails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		509A340A1E4180AF00B9238D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = HeadsOrTails/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.HeadsOrTails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		509A340C1E4180AF00B9238D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = HeadsOrTailsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.HeadsOrTailsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadsOrTails.app/HeadsOrTails";
+			};
+			name = Debug;
+		};
+		509A340D1E4180AF00B9238D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = HeadsOrTailsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.HeadsOrTailsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadsOrTails.app/HeadsOrTails";
+			};
+			name = Release;
+		};
+		509A340F1E4180AF00B9238D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = HeadsOrTailsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.HeadsOrTailsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HeadsOrTails;
+			};
+			name = Debug;
+		};
+		509A34101E4180AF00B9238D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4J6N8TR2LN;
+				INFOPLIST_FILE = HeadsOrTailsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deborah.HeadsOrTailsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HeadsOrTails;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		509A33B21E4180AB00B9238D /* Build configuration list for PBXProject "HeadsOrTails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A33FE1E4180AF00B9238D /* Debug */,
+				509A33FF1E4180AF00B9238D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509A34001E4180AF00B9238D /* Build configuration list for PBXNativeTarget "HeadsOrTails WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A34011E4180AF00B9238D /* Debug */,
+				509A34021E4180AF00B9238D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		509A34041E4180AF00B9238D /* Build configuration list for PBXNativeTarget "HeadsOrTails WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A34051E4180AF00B9238D /* Debug */,
+				509A34061E4180AF00B9238D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		509A34081E4180AF00B9238D /* Build configuration list for PBXNativeTarget "HeadsOrTails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A34091E4180AF00B9238D /* Debug */,
+				509A340A1E4180AF00B9238D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		509A340B1E4180AF00B9238D /* Build configuration list for PBXNativeTarget "HeadsOrTailsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A340C1E4180AF00B9238D /* Debug */,
+				509A340D1E4180AF00B9238D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		509A340E1E4180AF00B9238D /* Build configuration list for PBXNativeTarget "HeadsOrTailsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A340F1E4180AF00B9238D /* Debug */,
+				509A34101E4180AF00B9238D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 509A33AF1E4180AA00B9238D /* Project object */;
+}
