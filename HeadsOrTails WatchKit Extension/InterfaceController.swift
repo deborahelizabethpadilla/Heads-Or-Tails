@@ -19,7 +19,11 @@ class InterfaceController: WKInterfaceController {
         
         var randomNumber = arc4random_uniform(2)
         
-        print(randomNumber)
+        if randomNumber == 0 {
+            answerLabel.setText("Heads")
+        } else {
+            answerLabel.setText("Tails")
+        }
         
         //answerLabel.setText("My App Is Working!")
     }
