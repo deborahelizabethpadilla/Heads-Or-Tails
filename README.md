@@ -1,5 +1,7 @@
 # Heads-Or-Tails
 
+**Summary:**
+
 This watchOS application was created as a game for users to simply choose, heads or tails.
 
 **The application offers the following features:**
