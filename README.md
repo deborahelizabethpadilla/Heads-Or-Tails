@@ -9,6 +9,7 @@ This watchOS application was created as a game for users to simply choose, heads
 **Technologies Used In Application:**
 * WatchKit
 * Labels
+* Swift
 
 **Closing:**
 
