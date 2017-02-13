@@ -1,4 +1,4 @@
-# Heads-Or-Tails
+# Heads Or Tails
 
 **Summary:**
 
